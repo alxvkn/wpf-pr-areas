@@ -26,7 +26,8 @@ namespace pr
         }
 
         private void TextBox_PreviewTextInput(object sender, TextCompositionEventArgs e) {
-            e.Handled = Util.IsTextNumeric(e.Text);
+            string futuretext = (sender as TextBox).Text + e.Text;
+            e.Handled = !Util.IsTextNumeric(futuretext);
         }
 
         private void input_r_TextChanged(object sender, TextChangedEventArgs e)

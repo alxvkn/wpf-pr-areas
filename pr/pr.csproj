@@ -55,27 +55,27 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Cone.xaml.cs">
+    <Compile Include="pages\Cone.xaml.cs">
       <DependentUpon>Cone.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Cylinder.xaml.cs">
+    <Compile Include="pages\Cylinder.xaml.cs">
       <DependentUpon>Cylinder.xaml</DependentUpon>
     </Compile>
     <Compile Include="Home.xaml.cs">
       <DependentUpon>Home.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Sphere.xaml.cs">
+    <Compile Include="pages\Sphere.xaml.cs">
       <DependentUpon>Sphere.xaml</DependentUpon>
     </Compile>
-    <Compile Include="TruncatedCone.xaml.cs">
+    <Compile Include="pages\TruncatedCone.xaml.cs">
       <DependentUpon>TruncatedCone.xaml</DependentUpon>
     </Compile>
     <Compile Include="Util.cs" />
-    <Page Include="Cone.xaml">
+    <Page Include="pages\Cone.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Cylinder.xaml">
+    <Page Include="pages\Cylinder.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -95,11 +95,11 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Sphere.xaml">
+    <Page Include="pages\Sphere.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="TruncatedCone.xaml">
+    <Page Include="pages\TruncatedCone.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

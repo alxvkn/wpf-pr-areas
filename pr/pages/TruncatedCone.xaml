@@ -25,6 +25,7 @@
         <TextBlock x:Name="text_side_area" HorizontalAlignment="Left" Margin="635,188,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <TextBlock HorizontalAlignment="Left" Margin="597,209,0,0" TextWrapping="Wrap" Text="V = " VerticalAlignment="Top"/>
         <TextBlock x:Name="text_volume" HorizontalAlignment="Left" Margin="635,209,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="148,0,0,0" TextWrapping="Wrap" TextAlignment="Center" FontSize="24" VerticalAlignment="Center" Height="56" Width="199"><Run Language="ru-ru" Text="Усечённый конус"/></TextBlock>
 
     </Grid>
 </Page>
